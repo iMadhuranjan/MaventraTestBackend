@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import dotenv from "dotenv";
-import User from "../models/User.js"; // ✅ Make sure you import User
+import User from "../models/User.js";  
 dotenv.config();
 
 const authMiddleware = async (req, res, next) => {
